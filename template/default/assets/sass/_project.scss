@@ -1,0 +1,165 @@
+.page-content {
+	&.active {
+		.rd-mobilepanel{
+			background-position: 66% top;
+			@media (max-width: 1440px) {
+				background-position: 100% bottom;
+			}
+		}
+	}
+}
+
+.rd-mobilepanel {
+<<<<<<< HEAD
+	background-color: #0879c9;
+=======
+	background-color: $headerColor;
+>>>>>>> a9becd7228f385ea1ec674c39b9d565c99be86dc
+	background-position: right top;
+	transition-property: height;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+	@media (max-width: 1440px) {
+		background-size: 60% auto;
+		background-position: 600px bottom;
+	}
+}
+
+.rd-mobilepanel_toggle {
+	span{
+		background-color: #db259c;
+		&:before, &:after{
+			background-color: #db259c;
+		}
+	}
+
+}
+
+
+.rd-mobilepanel_title {
+	font-weight:800;
+	top:166px;
+	width: 400px;
+	line-height: 45px;
+	color: #fff;
+	left: 100px;
+<<<<<<< HEAD
+	font-size: 26px;
+
+=======
+	font-size: 30px;
+>>>>>>> a9becd7228f385ea1ec674c39b9d565c99be86dc
+}
+
+.rd-mobilepanel:not(.fixed) .rd-mobilepanel_title {
+	font-size: 62px;
+<<<<<<< HEAD
+	@media (max-width: 480px){
+		font-size: 50px;
+		text-align: center;
+		left: 0;
+		width: 100%;
+		left: 260px;
+		@media (max-width: 1439px){
+	.rd-mobilepanel_title{
+		top:50px
+	}
+
+}
+
+	}
+=======
+>>>>>>> a9becd7228f385ea1ec674c39b9d565c99be86dc
+}
+
+.tm-title-caption {
+	font-size: 20px;
+	font-weight: 800px;
+	top: 250px;
+	font-family: $fontFamily;
+<<<<<<< HEAD
+	color: #fff;
+=======
+	color: #131f2c;
+>>>>>>> a9becd7228f385ea1ec674c39b9d565c99be86dc
+	line-height: 57px;
+	width: 342px;
+	text-align: center;
+	font-weight: 900;
+	left: 55px;
+}
+
+
+@media (max-width: 1439px){
+	.rd-mobilepanel_title{
+		top:100px
+	}
+
+}
+@media (max-width: 1600px){
+	.tm-title-caption {
+		left: 9px;
+	}
+
+}
+
+@media (max-width: 1600px) and (min-width: 1440px){
+	.rd-mobilepanel_title{
+		top:67px
+	}
+}
+@media (max-width: 1800px) and (min-width: 1601px){
+	.rd-mobilepanel_title{
+		top:70px;
+		left: 100px;
+	}
+}
+.rd-mobilemenu {
+	.logo{
+		background-color: #000;
+		//background-color: #fff;
+	}
+}
+.rd-mobilemenu_ul{
+	ul{
+		a{
+			&.focus{
+				color: #d7476a;
+			}
+		}
+	}
+}
+
+.rd-mobilepanel {
+	&.introduction {
+		background-image: url($heroBanner);
+	}
+
+	&:not(.introduction) {
+		.tm-title-caption {
+			display: none;
+		}
+	}
+}
+
+.toTop {
+<<<<<<< HEAD
+	background-color: #0879c9;
+=======
+	background-color: #db259c;
+>>>>>>> a9becd7228f385ea1ec674c39b9d565c99be86dc
+	color: #fff;
+	&:hover {
+		background-color: #095890;
+	}
+}
+
+
+ul li .fa {
+    margin-bottom: 3px;
+    margin-right: 10px;
+    color: #db259c;
+    font-size: 16px;
+}
+

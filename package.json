@@ -1,0 +1,32 @@
+{
+  "name": "metaldocs",
+  "version": "1.0.0",
+  "description": "Documentation generator for WordPress themes.",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install gulp -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/templatemonster/metaldocs.git"
+  },
+  "author": "behaart",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/templatemonster/metaldocs/issues"
+  },
+  "homepage": "https://github.com/templatemonster/metaldocs#readme",
+  "devDependencies": {
+    "copy-dir": "^0.3.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-php2html": "^0.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "node-notifier": "^5.1.2",
+    "readline-sync": "^1.4.7",
+    "yargs": "^6.6.0"
+  }
+}

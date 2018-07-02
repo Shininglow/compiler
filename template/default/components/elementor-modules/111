@@ -1,0 +1,302 @@
+<?php
+    get_customizer_sub_component(
+        array(
+            'elementor',
+            'global-colors',
+            'global-fonts',
+            'color-picker',
+            'revision-history',
+            'delete-all-content',
+            'elementor-settings',
+            'about-elementor',
+        )
+    );
+?>
+<h5><?php _e( 'Global Colors' ); ?></h5>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'color palette' ); ?></dt>
+            <dd>
+                <?php _e( 'allows to select colors for primary, secondary, text\'s and accent\'s palettes;' ); ?>
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'more palettes' ); ?></dt>
+            <dd>
+                <?php _e( 'allows to select color palettes with stylized sets.' ); ?>
+            </dd>
+        </dl>
+    </li>
+
+</ul>
+
+<h5><?php _e( 'Global Fonts' ); ?></h5>
+
+        <ul class="marked-list">
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'primary headline' ); ?></dt>
+                    <dd>
+                        <?php _e( 'allows to choose font family and its weight from dropdown list of primary headline;' ); ?>
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'secondary headline' ); ?></dt>
+                    <dd>
+                        <?php _e( 'allows to choose font family and its weight from dropdown list of secondary headline;' ); ?>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'body text' ); ?></dt>
+                    <dd>
+                        <?php _e( 'allows to choose font family and its weight from dropdown list of body text;' ); ?>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'accent text' ); ?></dt>
+                    <dd>
+                        <?php _e( 'allows to choose font family and its weight from dropdown list of accent text.' ); ?>
+                    </dd>
+                </dl>
+            </li>
+
+        </ul>
+
+<h5><?php _e( 'Color Picker' ); ?></h5>
+
+
+        <ul class="marked-list">
+            <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'color picker' ); ?></dt>
+            <dd>
+                <?php _e( 'allows to select which colors appear in the editpr\'s color picker;' ); ?>
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'more palettes' ); ?></dt>
+            <dd>
+                <?php _e( 'allows to select color palettes with stylized sets.' ); ?>
+            </dd>
+        </dl>
+    </li>
+
+        </ul>
+<h5><?php _e( 'Revision History' ); ?></h5>
+
+<p><?php _e( 'Lets you save your previous versions of your work, and restore them any time. ' ); ?></p>
+        
+<h5><?php _e( 'Page Settings' ); ?></h5>
+
+
+        <ul class="marked-list">
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'title' ); ?></dt>
+                    <dd>
+                        <?php _e( 'type the title of the page;' ); ?>
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'hide title' ); ?></dt>
+                    <dd>
+                        <?php _e( 'show/ hide title of the page;' ); ?>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'template' ); ?></dt>
+                    <dd>
+                        <?php _e( 'select you want to work with;' ); ?>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt><?php _e( 'status' ); ?></dt>
+                    <dd>
+                        <?php _e( 'select status of the page.' ); ?>
+                    </dd>
+                </dl>
+            </li>
+
+        </ul>
+<h5><?php _e( 'Delete All Content' ); ?></h5>
+
+<p><?php _e( 'Deletes all content in Elementor. Pop-up wondow will ask whether to delete the content or not. ' ); ?></p>
+        
+<h5><?php _e( 'Elementor Settings' ); ?></h5>
+
+<p><?php _e( 'Sends to Settings page in WordPress Dashboard. ' ); ?></p>
+       
+<h5><?php _e( 'About Elementor' ); ?></h5>
+
+<p><?php _e( 'Sends to Elementor website. ' ); ?></p>
+       
+
+
+
+
+
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'margin' ); ?></dt>
+            <dd>
+                <?php _e( 'manages margin of element style of the icon;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'padding' ); ?></dt>
+            <dd>
+                <?php _e( 'manages padding element style of the icon;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'Z-index' ); ?></dt>
+            <dd>
+                <?php _e( 'specifies the number of z-index for icon;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'entrance animation' ); ?></dt>
+            <dd>
+                <?php _e( 'select type of entrance animation of the icon;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'animation duration' ); ?></dt>
+            <dd>
+                <?php _e( 'defines duration of icon\'s animation;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'animation delay' ); ?></dt>
+            <dd>
+                <?php _e( 'sets delay of icon\'s animation;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'CSS ID' ); ?></dt>
+            <dd>
+                <?php _e( 'insert CSS ID of the icon;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'CSS Classes' ); ?></dt>
+            <dd>
+                <?php _e( 'insert CSS Classes of the icon;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'normal & hover' ); ?></dt>
+            <dd>
+                <?php _e( 'choose layout of the icon\'s background;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'background type' ); ?></dt>
+            <dd>
+                <?php _e( 'offers classic or gradient background color of the icon\'s background;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'transition duration' ); ?></dt>
+            <dd>
+                <?php _e( 'select duration of transition in Hover option of the icon\'s background;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'normal & hover' ); ?></dt>
+            <dd>
+                <?php _e( 'choose layout of the icon\'s border;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'border type' ); ?></dt>
+            <dd>
+                <?php _e( 'select border type of the icon\'s border from dropdown list;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'border radius' ); ?></dt>
+            <dd>
+                <?php _e( 'defines border radius of the icon\'s border;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'box shadow' ); ?></dt>
+            <dd>
+                <?php _e( 'enable / disable of the icon\'s border;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'hide on desktop' ); ?></dt>
+            <dd>
+                <?php _e( 'show / hide the icon on desktop;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'hide on tablet' ); ?></dt>
+            <dd>
+                <?php _e( 'show / hide the icon on tablet;' ); ?>
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><?php _e( 'hide on mobile' ); ?></dt>
+            <dd>
+                <?php _e( 'show / hide the icon on mobile.' ); ?>
+            </dd>
+        </dl>
+    </li>

@@ -1,0 +1,174 @@
+{
+	"theme_name": "Your Theme",
+
+	"logo": "assets/images/temp/logo.png",
+	"favicon": "assets/images/temp/favicon.png",
+	"header_banner": "../../../assets/images/temp/header_bg.png",
+
+	"font": {
+		"body": "",
+		"body_src": "",
+		"header_logo": "",
+		"header_logo_src": ""
+	},
+	"colors": {
+		"primary": "#000",
+		"secondary": "#fff",
+		"text": "#fff",
+		"link": "#298ffc"
+	},
+
+	"main_component":"introduction",
+	"components": [
+		"introduction",
+		"template-installation",
+		"basic-configuration",
+		"customizer",
+		"posts-categories",
+		"builder",
+		"builder-modules",
+		"widgets",
+		"plugins",
+		"extras"
+	],
+
+	"exclud_customizer": [
+		"options",
+		"choices",
+		"input_attrs"
+	],
+
+	"default_widgets": [
+		"archive",
+		"calendar",
+		"categories",
+		"custom-menu",
+		"meta",
+		"pages",
+		"recent-comments",
+		"recent-posts",
+		"rss",
+		"search",
+		"tag-cloud",
+		"text"
+	],
+	"widgets_in_plugin": {
+		"easy-twitter-feed-widget": [
+			"easy-twitter-feed-widget-kamn"
+		],
+		"facebook-widget": [
+			"fbw-id"
+		],
+		"wp-user-avatar": [
+			"wp-user-avatar"
+		],
+		"motopress-slider": [
+			"motopress-slider"
+		],
+		"woocommerce": [
+			"tm-about-store",
+			"tm-banners-grid",
+			"tm-custom-menu-bkg",
+			"tm-product-categories-with-thumbnail",
+			"tm-products-carousel",
+			"tm-products-smart-box",
+			"tm-woocommerce-recent-compare",
+			"tm-woocommerce-wishlist",
+			"woocommerce-average-rating",
+			"woocommerce-cart",
+			"woocommerce-layered-nav",
+			"woocommerce-layered-nav-filters",
+			"woocommerce-price-filter",
+			"woocommerce-product-categories",
+			"woocommerce-products",
+			"woocommerce-product-search",
+			"woocommerce-product-tags",
+			"woocommerce-recently-viewed",
+			"woocommerce-recent-reviews",
+			"woocommerce-top-rated-products"
+		],
+		"tm-woocommerce-ajax-filters": [
+			"tm-woocommerce-ajax-filter"
+		],
+		"woocommerce-currency-switcher": [
+			"woocommerce-currency-switcher",
+			"woocommerce-currency-converter",
+			"woocommerce-currency-rates"
+		],
+		"the-events-calendar": [
+			"events-list"
+		],
+		"shortcode-widget": [
+			"shortcode-widget"
+		],
+		"cherry-socialize": [
+			"cherry-socialize"
+		],
+		"dsidxpress": [
+			"idx-areas",
+			"idx-guided-search",
+			"idx-listings",
+			"idx-quick-search",
+			"idx-single-listing"
+		],
+		"cherry-trending-posts": [
+			"cherry-trending-posts"
+		],
+		"revslider": [
+			"revolution-slider"
+		],
+		"mp-restaurant-menu": [
+			"restaurant-menu-cart",
+			"restaurant-menu-categories",
+			"restaurant-menu-items"
+		],
+		"mp-timetable": [
+			"timetable-events"
+		],
+		"bbpress": [
+			"bbpress-forums-list",
+			"bbpress-log-in",
+			"bbpress-recent-topics",
+			"bbpress-statistics",
+			"bbpress-topic-views-list",
+			"bbpress-recent-replies",
+			"bbpress-members",
+			"bbpress-recently-active-members",
+			"bbpress-who-online"
+		]
+	},
+	"exclud_widgets": [],
+
+	"exclud_plugins": [
+		"debug-bar-slow-actions",
+		"debug-bar",
+		"monster-widget",
+		"wordpress-importer",
+		"theme-check",
+		"query-monitor",
+		"akismet",
+		"index.php",
+		"hello.php"
+	],
+		"cherry-real-estate": [
+			"cherry-re-properties",
+			"cherry-re-search"
+		],
+
+	"builder": [ "power-builder", "tm-content-builder" ],
+	"exclud_builder_modules": [],
+
+	"default_language": "en_EN",
+	"language": {
+		"en_EN": "English"
+	},
+
+	"template": "default",
+	"outPutFolder": "../documentation",
+
+	"widget_path": "inc/widgets",
+	"plugin_path": "../../plugins",
+	"customizer_path": "inc/customizer.php",
+	"assets_path": "assets",
+	"builder_modules_path": "framework/includes/modules"
+}

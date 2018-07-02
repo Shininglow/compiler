@@ -1,0 +1,103 @@
+<div class="copyright">&copy; JetImpex <a href="https://jetimpex.com/privacy-policy/"target="_blank">Privacy Policy</a></div>
+
+JetImpex
+
+target="_blank"
+
+
+**********Introduction***********
+
+<pre class="unstyled" style="background-color:#f9f9f9; padding:5px 5px 5px 20px; line-height: 2px; height: 380px;"><ul>
+<ul>
+<h1></h1>
+					<p>‘max_execution_time’ =&gt; 60;</p>
+					<p>‘memory_limit’ =&gt; 128;</p>
+					<p>‘post_max_size’ =&gt; 8;</p>
+					<p>‘upload_max_filesize’ =&gt; 8;</p>
+					<p>‘max_input_time’ =&gt; 45;</p>
+					<p>‘file_uploads’ =&gt; ‘on’;</p>
+					<p>‘safe_mode’ =&gt; ‘off’.</p>
+	<p>In the file <strong>.htaccess</strong>, ‘php_value max_execution_time’ =&gt; 60.</p>
+</pre>
+
+
+	<li>
+		<a href="https://jetimpex.com/wordpress/support/knowledge-base/app-serv-web-development-environment-installation/" target="_blank">How to install AppServ web development environment;</a>
+		
+	</li>
+	<li>
+		<a href="https://jetimpex.com/wordpress/support/knowledge-base/wamp-web-development-environment-installation/"target="_blank">How to install WAMP web development environment;</a>
+
+	</li>
+	<li>
+		<a href="https://jetimpex.com/wordpress/support/knowledge-base/xamp-web-development-environment-installation/"target="_blank">How to install XAMP web development environment.</a>
+	</li>
+
+
+*****************Template Installation**************
+
+<h5><?php printf( _( 'JetImpex theme is built as a WordPress theme, so you need to have WordPress engine installed first. If you have not installed it yet, please refer to the <a href="#wordpress-installation" target="_blank">WordPress Installation</a> section.' ), '</a>' ); ?></h5>
+
+
+<ul>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/winzip-downloading-and-installation/"target="_blank">WinZip Downloading and Installation;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/archived-files-extraction/"target="_blank">Archived Files Extraction;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/archived-files-extraction-for-windows/"target="_blank">Archived Files Extraction for Windows;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/template-extraction-on-mac-os/"target="_blank">Template Extraction on MAC OS.</a></li>
+</ul>
+
+
+<ul>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/uploading-files-to-a-server-using-ftp/"target="_blank">Uploading Files to a Server Using FTP;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/uploading-files-to-a-server-with-cpanel/"target="_blank">Uploading Files to a Server with cPanel.</a></li>
+</ul>
+
+
+
+<ul>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/creating-a-database/"target="_blank">Creating a Database;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/creating-mysql-database-with-godaddy/"target="_blank">Creating MySQL Database with GoDaddy.</a></li>
+</ul>
+
+
+
+
+<ul>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/manual-wordpress-installation-to-hostgator-server/"target="_blank">Manual WordPress Installation to HostGator Server;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/manual-wordpress-installation-bluehost/"target="_blank">Manual WordPress Installation to BlueHost Server;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/manual-wordpress-installation-to-siteground-server/"target="_blank">Manual WordPress Installation to SiteGround Server;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/manual-wordpress-installation-to-godaddy-server/"target="_blank">Manual WordPress Installation to GoDaddy Server;</a></li>
+	<li><a href="https://jetimpex.com/wordpress/support/knowledge-base/manual-wordpress-installation-to-justhost-server/"target="_blank">Manual WordPress Installation to JustHost Server.</a></li>
+</ul>
+
+<p>
+        Red Install Plugin box means the installation process hasn't been completed. Press on <strong>Details</strong> link you will see where is the problem and please refer to <a href="https://jetimpex.com/wordpress/support/" target="_blank">JetImpex Support</a>
+</p>
+
+target="_blank"
+
+
+<div class="copyright">&copy; JetImpex <a href="https://jetimpex.com/privacy-policy/"target="_blank">Privacy Policy</a></div>
+
+
+***********************Help*********************
+
+<h3 id="help-and-support">Help and Support</h3>
+
+<h5 id="help-and-support"><?php _e( 'JetImpex Support Portal' ); ?></h5>
+
+<p>For more information please proceed to <a href="https://jetimpex.com/wordpress/" target="_blank">JetImpex Support Portal</a>. </p>
+
+<h5 id="help-and-support"><?php _e( 'Ticket System' ); ?></h5>
+
+<p> Depending on marketplace where you've purchased a template you can submit a ticket at:</p>
+<ul>
+<li> <a href="https://support.template-help.com/index.php?/Tickets/Submit" target="_blank">TemplateMonster</a>;</li>
+<li> <a href="https://mojosupport.zendesk.com/hc/en-us/articles/200700157-Item-Support" target="_blank">MOJO Themes</a>;</li>
+<li> <a href="https://jetimpex.ticksy.com/submit/" target="_blank">Themeforest</a>;</li>
+<li><a href="https://support.creativemarket.com/hc/en-us/articles/201193314-How-do-I-contact-a-shop-owner-about-an-item-" target="_blank">Creative Market</a>.</li>
+</ul>
+
+<h5 id="help-and-support"><?php _e( 'Chat' ); ?></h5>
+
+<p>If you've purchased a template at TemplateMonster.com marketplace, please, feel free to enter the <a href="https://chat.template-help.com/" target="_blank">chat</a>.
