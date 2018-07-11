@@ -27,11 +27,8 @@
 		"customizer",
 		"posts-categories",
 		"elementor",
-<<<<<<< HEAD
-=======
 		"builder",
 		"builder-modules",
->>>>>>> a9becd7228f385ea1ec674c39b9d565c99be86dc
 		"widgets",
 		"plugins",
 		"woocommerce-integration",
@@ -82,24 +79,24 @@
 
         ],
 		"booked": [
-			"booked-calendar" 
+			"booked-calendar"
 
 			],
 
 
 
         "smart-slider-3": [
-			"smart-slider" 
+			"smart-slider"
 
 			],
 
 
 		"hotel-booking": [
-			"room-types" 
+			"room-types"
 
 			],
 		"cherry-search": [
-			"search-availability" 
+			"search-availability"
 
 
 		],
